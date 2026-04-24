@@ -18,7 +18,7 @@ from datetime import datetime
 
 
 
-# SensorUltrasonico
+# Sensor ultrasonico
 # Simula las lecturas del sensor HC-SR04 conectado al ESP32
 
 class SensorUltrasonico:
@@ -271,8 +271,8 @@ class HMI:
 if __name__ == "__main__":
     hmi = HMI()
 
-    # Ejemplo de configuración de parámetros desde la interfaz
+    
     hmi.configurar_tanque(radio=30.0, altura=120.0)
 
-    # Ejecutar simulación
+    
     hmi.ejecutar(ciclos=6)
