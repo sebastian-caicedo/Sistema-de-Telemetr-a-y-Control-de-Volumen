@@ -1,1 +1,0 @@
-# Sistema-de-Telemetr-a-y-Control-de-Volumen
